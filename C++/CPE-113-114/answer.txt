@@ -1,0 +1,4 @@
+1. greet ของ object ที่ถูกชี้
+2. keyword virtual ทำให้ฟังก์ชั่น testDog เรียกใช้ greet จาก object ที่ถูกชี้อยู่
+3. greet ใน base class เรียกว่า virtual function
+   greet ใน derived class เรียกว่า overridden function

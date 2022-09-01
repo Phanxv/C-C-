@@ -1,0 +1,19 @@
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_generic failed with the following output:
+Change Dir: C:/Works/C++/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_764e3/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_764e3.dir\build.make CMakeFiles/cmTC_764e3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Works/C++/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_764e3.dir/src.cxx.obj
+C:\MinGW\bin\mingw32-g++.exe -Dcheck_cxx_compiler_flag__march_generic  -march=generic -o CMakeFiles\cmTC_764e3.dir\src.cxx.obj -c C:\Works\C++\build\CMakeFiles\CMakeTmp\src.cxx
+C:\Works\C++\build\CMakeFiles\CMakeTmp\src.cxx:1:0: error: generic CPU can be used only for -mtune= switch
+ int main() { return 0; }
+ 
+CMakeFiles\cmTC_764e3.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_764e3.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_764e3.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Works/C++/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_764e3/fast' failed
+mingw32-make.exe: *** [cmTC_764e3/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1645430664 source:d:\work\c++\l1505_exceptionclass\error.cpp
+	"error.h"
+	<iostream>
+	<string>
+
+1645430664 d:\work\c++\l1505_exceptionclass\error.h
+	<string>
+
+1645430964 source:d:\work\c++\l1505_exceptionclass\main.cpp
+	<iostream>
+	"error.h"
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1644831375 source:d:\work\c++\l1402_dogswithvirtual\main.cpp
+	<iostream>
+	<string>
+	"dog.h"
+
+1644831357 source:d:\work\c++\l1402_dogswithvirtual\dog.cpp
+	<iostream>
+	"dog.h"
+	<string>
+
+1644831357 d:\work\c++\l1402_dogswithvirtual\dog.h
+	<string>
+
+1644831489 source:d:\work\c++\l1402_dogswithvirtual\poodle.cpp
+	"poodle.h"
+	<iostream>
+
+1644831524 d:\work\c++\l1402_dogswithvirtual\poodle.h
+	"dog.h"
+

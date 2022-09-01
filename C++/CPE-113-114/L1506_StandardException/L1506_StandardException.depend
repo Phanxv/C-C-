@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1645433559 source:d:\work\c++\l1506_standardexception\main.cpp
+	<iostream>
+	<string>
+	<stdexcept>
+

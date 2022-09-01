@@ -1,0 +1,76 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+class Man
+{
+    public:
+        void set(char *, int);
+        void setName(char *);
+        void setBirthYear(int);
+        int calAge();
+        int calAge(int);
+        int calDifAge(Man);
+        char * getName();
+        int getBirthYear();
+    private :
+        char name[40];
+        int birthYear;
+};
+
+int main()
+{
+    Man Porn;
+    char name[40],surname[40];
+    int birthyear;
+
+    cout << "Enter Porn's name: ";
+    cin  >> name >> surname;
+    cout << "Enter Porn's birth year: ";
+    cin  >> birthyear;
+
+    strcat(name," ");
+    strcat(name,surname);
+    Porn.setName(name);
+    Porn.setBirthYear(birthyear);
+
+    cout << Porn.getName() << " was born on " << Porn.getBirthYear() << endl;
+	return 0;
+}
+
+int Man::calAge()
+{
+	return (2563 - birthYear);
+}
+
+int Man::calAge(int currentYear)
+{
+	return (currentYear - birthYear);
+}
+
+int Man::calDifAge(Man anotherMan)
+{
+	return (birthYear - anotherMan.birthYear );
+}
+void Man::set(char *n,int b)
+{
+    strcpy(name, n);
+    birthYear = b > 2563?2563:b<2464?2464:b;
+}
+void Man::setName(char *n)
+{
+    strcpy(name, n);
+}
+void Man::setBirthYear(int b)
+{
+    birthYear = b > 2563?2563 : b < 2464 ? 2464:b;
+}
+char * Man::getName()
+{
+    return(name);
+}
+int Man::getBirthYear()
+{
+    return(birthYear);
+}

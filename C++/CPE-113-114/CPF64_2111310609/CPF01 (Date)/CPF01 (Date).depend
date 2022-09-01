@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1646363284 source:d:\work\c++\cpf64_2111310609\cpf01 (date)\main.cpp
+	<iostream>
+	<string>
+	"simpleDate.h"
+	"calendarDate.h"
+
+1646362770 source:d:\work\c++\cpf64_2111310609\cpf01 (date)\simpledate.cpp
+	"simpleDate.h"
+
+1646363228 d:\work\c++\cpf64_2111310609\cpf01 (date)\simpledate.h
+	<string>
+
+1646363228 source:d:\work\c++\cpf64_2111310609\cpf01 (date)\calendardate.cpp
+	"calendarDate.h"
+
+1646363259 d:\work\c++\cpf64_2111310609\cpf01 (date)\calendardate.h
+	<string>
+	"simpleDate.h"
+

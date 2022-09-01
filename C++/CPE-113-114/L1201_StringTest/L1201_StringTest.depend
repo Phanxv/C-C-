@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643619113 source:d:\work\c++\l1201_stringtest\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+

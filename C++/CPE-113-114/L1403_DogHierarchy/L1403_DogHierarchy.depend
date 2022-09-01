@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1644832203 source:d:\work\c++\l1403_doghierarchy\main.cpp
+	<iostream>
+	<string>
+	"dog.h"
+	"poodle.h"
+	"terrier.h"
+	"bullTerrier.h"
+
+1644831357 source:d:\work\c++\l1403_doghierarchy\dog.cpp
+	<iostream>
+	"dog.h"
+	<string>
+
+1644831357 d:\work\c++\l1403_doghierarchy\dog.h
+	<string>
+
+1644831489 source:d:\work\c++\l1403_doghierarchy\poodle.cpp
+	"poodle.h"
+	<iostream>
+
+1644831524 d:\work\c++\l1403_doghierarchy\poodle.h
+	"dog.h"
+
+1644831855 source:d:\work\c++\l1403_doghierarchy\terrier.cpp
+	"terrier.h"
+	<iostream>
+
+1644832005 d:\work\c++\l1403_doghierarchy\terrier.h
+	"dog.h"
+	<iostream>
+
+1644832192 source:d:\work\c++\l1403_doghierarchy\bullterrier.cpp
+	"bullTerrier.h"
+	<iostream>
+
+1644832186 d:\work\c++\l1403_doghierarchy\bullterrier.h
+	"terrier.h"
+	<iostream>
+

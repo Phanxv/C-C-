@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643012393 source:d:\work\c++\l0902_money11\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+

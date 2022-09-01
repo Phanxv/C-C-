@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1643016694 source:d:\work\c++\l1001_lenghttest\main.cpp
+	<iostream>
+	<cstdlib>
+	"lenght.h"
+
+1643016583 source:d:\work\c++\l1001_lenghttest\lenght.cpp
+	"lenght.h"
+	<cstdlib>
+
+1643016349 d:\work\c++\l1001_lenghttest\lenght.h
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646366614 source:d:\work\c++\cpf64_2111310609\cpf03 (polyshape)\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

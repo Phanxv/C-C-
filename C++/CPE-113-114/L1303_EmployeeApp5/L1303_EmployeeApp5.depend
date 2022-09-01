@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1644386007 source:d:\work\c++\l1303_employeeapp5\employee.cpp
+	"employee.h"
+
+1644385949 d:\work\c++\l1303_employeeapp5\employee.h
+	<string>
+
+1644220599 source:d:\work\c++\l1303_employeeapp5\holidayemployee.cpp
+	"holidayEmployee.h"
+
+1644385949 d:\work\c++\l1303_employeeapp5\holidayemployee.h
+	"employee.h"
+
+1644386076 source:d:\work\c++\l1303_employeeapp5\main.cpp
+	<iostream>
+	"employee.h"
+	"saleEmployee.h"
+	"holidayEmployee.h"
+	"seniorEmployee.h"
+
+1644385949 d:\work\c++\l1303_employeeapp5\saleemployee.h
+	"employee.h"
+
+1644220338 source:d:\work\c++\l1303_employeeapp5\saleemployee.cpp
+	"saleEmployee.h"
+
+1644385699 source:d:\work\c++\l1303_employeeapp5\senioremployee.cpp
+	"seniorEmployee.h"
+
+1644385247 d:\work\c++\l1303_employeeapp5\senioremployee.h
+	"employee.h"
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1644830942 source:d:\work\c++\l1401_dogs\main.cpp
+	<iostream>
+	"dog.h"
+
+1644830830 source:d:\work\c++\l1401_dogs\dog.cpp
+	<iostream>
+	"dog.h"
+	<string>
+
+1644830969 d:\work\c++\l1401_dogs\dog.h
+	<string>
+
+1644831184 source:d:\work\c++\l1401_dogs\poodle.cpp
+	"poodle.h"
+	<iostream>
+
+1644831165 d:\work\c++\l1401_dogs\poodle.h
+	"dog.h"
+

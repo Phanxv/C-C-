@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1643017628 source:d:\work\c++\l1002_moneyseparate\main.cpp
+	<iostream>
+	"money.h"
+
+1643017554 d:\work\c++\l1002_moneyseparate\money.h
+
+1643017736 source:c:\users\phank\works\c-c++\c++\cpe-113-114\l1002_moneyseparate\main.cpp
+	<iostream>
+	<iomanip>
+	"money.h"
+
+1643017554 c:\users\phank\works\c-c++\c++\cpe-113-114\l1002_moneyseparate\money.h
+
+1643017736 source:c:\users\phank\works\c-c++\c++\cpe-113-114\l1002_moneyseparate\money.cpp
+	<iostream>
+	<iomanip>
+	"money.h"
+

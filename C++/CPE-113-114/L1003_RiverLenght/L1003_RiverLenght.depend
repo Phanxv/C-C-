@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1643026065 source:d:\work\c++\l1003_riverlenght\lenght.cpp
+	"length.h"
+	<cstdlib>
+
+1643020931 d:\work\c++\l1003_riverlenght\lenght.h
+
+1643020474 source:d:\work\c++\l1003_riverlenght\river.cpp
+	"river.h"
+	<cstring>
+
+1643026162 d:\work\c++\l1003_riverlenght\river.h
+	<string>
+	"length.h"
+
+1643026065 source:d:\work\c++\l1003_riverlenght\main.cpp
+	<iostream>
+	<cstring>
+	<cmath>
+	"length.h"
+	"river.h"
+
+1643020931 d:\work\c++\l1003_riverlenght\length.h
+

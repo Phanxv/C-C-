@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643875123 source:d:\work\c++\l1205_wordsearch\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+
